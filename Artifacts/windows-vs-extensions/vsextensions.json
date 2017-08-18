@@ -1,0 +1,12 @@
+{
+  "extensions": [
+    {
+      "name": "Viasfora",
+      "url": "https://marketplace.visualstudio.com/items?itemName=TomasRestrepo.Viasfora"
+    },
+    {
+      "name": "Object Exporter",
+      "url": "https://marketplace.visualstudio.com/items?itemName=OmarElabd.ObjectExporter"
+    }
+  ]
+}
