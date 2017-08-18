@@ -5,7 +5,6 @@ $dotNetCoreSDKDestination =  $PSScriptRoot + "\dotnet-sdk-2.0.0-win-gs-x64.exe"
 Write-Host "Downloading DotNet Core SDK"
 
 Invoke-WebRequest -Uri $dotNetCoreSDKurl -OutFile $dotNetCoreSDKDestination
-Write-Output "Downloaded. Time taken: $((Get-Date).Subtract($start_time).Seconds) second(s)"
 
 Write-Host "Completed downloading DotNet Core SDK"
 
