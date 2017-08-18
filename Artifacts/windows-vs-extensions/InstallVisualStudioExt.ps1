@@ -5,7 +5,7 @@ Foreach ($link in $links.extensions)
   $uri = $link.url
   $name = $link.name
 
-  $destination = $PSScriptRoot + "\" + $name.Substring($name.LastIndexOf("/")+1)
+  $destination = $PSScriptRoot + "\" + $uri.Substring($uri.LastIndexOf("/")+1)
 
   Write-Host "Downloading  $name from $uri"
 
