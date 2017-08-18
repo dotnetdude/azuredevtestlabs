@@ -1,4 +1,4 @@
-$vsExtnDestination =  $PSScriptRoot + "\dotnet-sdk-2.0.0-win-gs-x64.exe"
+$vsExtnDestination =  $PSScriptRoot + "\vsextensions.json"
 $links = Get-Content -Raw -Path $vsExtnDestination | ConvertFrom-Json
 Foreach ($link in $links.extensions)
 {
