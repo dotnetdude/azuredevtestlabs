@@ -1,11 +1,10 @@
 $links = Get-Content -Raw -Path vsextensions.json | ConvertFrom-Json
-$basefolder = "D:\extensions\"
 Foreach ($link in $links.extensions)
 {
   $url = $link.url
   $name = $link.name
 
-  $destination = $basefolder + $name.Substring($name.IndexOf("=")+1) + ".vsix"
+  $destination = $PSScriptRoot + + $name.Substring($name.IndexOf("=")+1) + ".vsix"
 
   Write-Host "Downloading  $name from $uri"
 
