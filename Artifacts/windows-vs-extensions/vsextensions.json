@@ -2,11 +2,11 @@
   "extensions": [
     {
       "name": "Viasfora",
-      "url": "https://marketplace.visualstudio.com/items?itemName=TomasRestrepo.Viasfora"
+      "url": "https://visualstudiogallery.msdn.microsoft.com/19609469-380e-4fcf-bcde-e31caeb658b2/file/196674/14/Viasfora.vsix"
     },
     {
       "name": "Object Exporter",
-      "url": "https://marketplace.visualstudio.com/items?itemName=OmarElabd.ObjectExporter"
+      "url": "https://visualstudiogallery.msdn.microsoft.com/c6a21c68-f815-4895-999f-cd0885d8774f/file/159016/3/ObjectExporter.vsix"
     }
   ]
 }
