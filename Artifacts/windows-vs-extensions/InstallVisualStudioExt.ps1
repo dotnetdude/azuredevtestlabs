@@ -2,7 +2,7 @@ $vsExtnDestination =  $PSScriptRoot + "\vsextensions.json"
 $links = Get-Content -Raw -Path $vsExtnDestination | ConvertFrom-Json
 Foreach ($link in $links.extensions)
 {
-  $url = $link.url
+  $uri = $link.url
   $name = $link.name
 
   $destination = $PSScriptRoot + $name.Substring($name.IndexOf("=")+1) + ".vsix"
