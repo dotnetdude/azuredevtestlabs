@@ -1,4 +1,4 @@
-$links = Get-Content -Raw -Path vsextensions.json | ConvertFrom-Json
+$links = Get-Content -Raw -Path  $PSScriptRoot + vsextensions.json | ConvertFrom-Json
 Foreach ($link in $links.extensions)
 {
   $url = $link.url
