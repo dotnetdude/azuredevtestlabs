@@ -9,7 +9,7 @@ Foreach ($link in $links.extensions)
 
   Write-Host "Downloading  $name from $uri"
 
-  Invoke-Webrequest -Uri $url -OutFile "$destination"
+  Invoke-Webrequest -Uri $uri -OutFile "$destination"
 
   Write-Host "Downloaded  $name from $uri"
 
